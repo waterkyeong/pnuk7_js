@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container { /*#은 id의 셀렉터이다.*/
+    width: 60%;
+    height: 100vh;
+    margin-left: 20%;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+}
+
+div nav ul {
+    width: 100%;
+    height: 100%;
+    display: fleX;
+    justify-content: center; /*수평*/
+    align-items: center; /*수직*/
+    margin: 10px;
+    font-size: 1REM;
+}
+
+div nav ul li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: rgb(124, 185, 241);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited, a:link{
+    color: white;
+}
+
+a:hover{
+    color:rgb(58, 89, 226);
+}
+
+h1{
+    
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+div ul li{
+    margin: 10px 40px;
+    padding: 20px;
+    background-color: beige;
+    color: black;
+}
+
+
+div ul li:hover{
+    background-color: rgb(118, 126, 243);
+    color: white;
+}
