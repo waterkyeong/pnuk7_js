@@ -12,14 +12,14 @@
 header{
     width: 100%;
     height: 80px;
-    background-color: rgb(74, 18, 230);
+    background-color: rgb(98, 212, 216);
     color: white;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 0px 50px;
+    padding: 0px 30px;
 }
 
 nav{
@@ -44,7 +44,7 @@ main nav ul li{
     padding: 10px;
     margin: 2px;
     border-radius: 10px;
-    background-color: rgb(124, 185, 241);
+    background-color: rgb(124, 223, 241);
     color: white;
 }
 
@@ -69,7 +69,7 @@ ul{
 section ul li{
     margin: 10px 40px;
     padding: 20px;
-    background-color: beige;
+    background-color: rgb(168, 247, 216);
     color: black;
 }
 
