@@ -25,3 +25,10 @@ section>p{
     margin: 0px 20px;
 }
 
+span{
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

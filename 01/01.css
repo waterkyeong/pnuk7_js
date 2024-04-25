@@ -24,17 +24,17 @@ p{
     justify-content: center;
     align-items: center;
     
-    background-color: rgb(240, 254, 255);
-    color: white;
+    /* background-color: rgb(200, 245, 248); */
+    color: black;
     border-radius: 10px;
 }
 
 button{
     /* width: 100px; */
     height: 40px;
-    padding: 20px;
+    padding: 10px;
     background-color: aquamarine;
-    color: white;
+    color: black;
     border: 0px;
     border-radius: 10px;
 

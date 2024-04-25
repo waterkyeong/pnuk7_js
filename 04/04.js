@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     // - 랜덤수를 생성 > 컴퓨터 숫자(com) > 이미지 변경
     // - 사용자 선택수(user)와 컴퓨터 선택수 (com)을 비교
     // - 결과 출력
-    
+
         const user = parseInt(bt.textContent.slice(0,1));
 
         const com = Math.floor(Math.random() * 6)+1;
@@ -64,7 +64,16 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
         userImg.setAttribute("src", `./img/${user}.png`);
         userImg.setAttribute("src", `./img/${user}.png`);
-        });
+
+        if(com == user){
+            msg.innerHTML = '맞음'
+        }
+        else
+            msg.innerHTML = '틀림'
+            
+            
+    });
+
     }
 
 
