@@ -1,0 +1,27 @@
+#btDiv4, #btDiv4 > section, section > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#btDiv4{
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(240, 254, 255);
+    border: 1px dotted rgb(43, 110, 199);
+}
+
+#btDiv4> section{
+    width: 100%;
+}
+
+section>p{
+    height: 300px;
+    border: none;
+    flex-direction: column;
+    /* background-color: (240, 254, 255); */
+    margin: 0px 20px;
+}
+

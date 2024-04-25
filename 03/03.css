@@ -1,0 +1,10 @@
+#btDiv{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    height: 300px;
+    width: 100%;
+}
+
