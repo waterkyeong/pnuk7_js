@@ -1,0 +1,59 @@
+/* div.arr{
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    border-bottom: none;
+}
+
+input{
+    border-top: none;
+    border-bottom: none;
+} */
+
+
+#btDiv8, form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+#btDiv8 > section{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+}
+#btDiv8 {
+  flex-direction: column;
+
+  height: 400px;
+  background-color: rgb(240, 254, 255);
+}
+
+.div81, .div82 {
+  background-color: rgb(240, 254, 255);
+  border: none;
+  margin: 10px 20px;
+  
+} 
+.div81 {
+  width: 100%;
+}
+
+.div82 {
+  width: 100%;  
+}
+
+.bt81, .bt82, .bt83 {
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+}
+
+input{ 
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}

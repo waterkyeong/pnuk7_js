@@ -30,7 +30,7 @@ p{
 }
 
 button{
-    /* width: 100px; */
+    width: 100px;
     height: 40px;
     padding: 10px;
     background-color: aquamarine;
