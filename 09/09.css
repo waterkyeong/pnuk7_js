@@ -1,0 +1,43 @@
+.bt91 {
+    width: 40%;
+  }
+  
+  .div81 > span {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    font-size: large;
+    font-weight: bold;
+  
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .sp0 {
+    background-color: rgb(240, 116, 116);
+    color: white;
+  }
+  .sp1 {
+    background-color:rgb(240, 173, 108);
+    color: white;
+  }
+  .sp2 {
+    background-color:rgb(228, 230, 130) ;
+    color: white;
+  }
+  .sp3 {
+    background-color:rgb(164, 209, 127);
+    color: white;
+  }
+  .sp4 {
+    background-color:rgb(150, 175, 221);
+    color: white;
+  }
+  .spplus {
+    background-color: rgb(119, 178, 218);
+    color: black;
+  
+  }
+  
